@@ -48,6 +48,16 @@ Opencv (C++) : https://github.com/opencv/opencv
 6. 서버에서 3번 과정 후 얻어진 $\vec{E(A)}$, $\vec{E(B)}$에서 $\vec{E(A)}\bullet \vec{E(B)}$를 얻습니다.
 7. 이진 탐색을 통해 $E(x)\vec{E(A)}||\vec{E(B)}| = \vec{E(A)}\bullet \vec{E(B)}$를 만족하는 $x$를 구합니다.
 8. $x$가 곧 두 벡터의 코사인 값입니다.
+
+----------------------------
+
+### 실행 방법
+- (사용 환경은 반드시 visual studio 2019 버전으로 하셔야 합니다.)
+1. cmd 열기 ➜ 원하는 폴더에 "git clone https://github.com/hiwg08/2023_Individual_Research_PET.git" 입력
+2. 폴더 열기 ➜ SEAL 폴더 열기 ➜ SEAL.sln 열기
+3. 열면 get_cos, IR_PET, SEAL 프로젝트가 있습니다. IR_PET은 저의 별도의 프로젝트이므로 무시하셔도 됩니다. 이 중 SEAL 프로젝트를 **release / x64** 모드로 먼저 빌드합니다.
+4. get_cos 프로젝트를 **release / x64** 모드로 빌드하고 실행하면 됩니다. 
+
 ----------------------------
 
 ### 기대 효과
