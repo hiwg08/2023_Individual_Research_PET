@@ -31,7 +31,7 @@ Opencv (C++) : https://github.com/opencv/opencv
 
 ### 프로젝트 로직
  <img src= https://github.com/hiwg08/2023_Individual_Research_PET/assets/91325459/1bb81efa-e595-482a-b615-2a5742be5cb3>
-<div align="center">[플로우 차트]</div>
+<div align="center">[시스템 구조도]</div>
 
 <br/>
 
