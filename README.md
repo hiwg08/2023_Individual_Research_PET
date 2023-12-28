@@ -52,7 +52,7 @@ Opencv (C++) : https://github.com/opencv/opencv
 ----------------------------
 
 ### 실행 방법
-- **(사용 환경은 반드시 visual studio 2019 버전으로 하셔야 합니다.)**
+> **(사용 환경은 반드시 visual studio 2019 버전으로 하셔야 합니다.)**
 1. cmd 열기 ➜ 원하는 폴더에 "git clone https://github.com/hiwg08/2023_Individual_Research_PET.git" 입력
 2. 폴더 열기 ➜ SEAL 폴더 열기 ➜ SEAL.sln 열기
 3. 열면 get_cos, IR_PET, SEAL 프로젝트가 있습니다. 이 중 SEAL 프로젝트를 **release / x64** 모드로 먼저 빌드합니다. (IR_PET은 저의 별도의 프로젝트이므로 무시하셔도 됩니다.)
@@ -74,7 +74,7 @@ Opencv (C++) : https://github.com/opencv/opencv
 <br>
 ➜ 상대 오차 : 0.0000323
 
-<br>
+<br><br>
 
 - 기타 다른 차원, 다른 원소들을 입력으로 넣어도 오차는 상당히 적습니다.
 - CKKS 특성 상, 상대 오차는 반드시 나옵니다.
