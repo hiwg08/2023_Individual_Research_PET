@@ -97,7 +97,7 @@ double solve(ll params, const vector<double>& A, const vector<double>& B)
         w_pts.emplace_back(p);
     }
 
-    // 2. 평문 벡터를 패킹(인코딩) 합니다. 평문 벡터를 미리 패킹해야 암호화가 가능합니다.
+    // 2. 평문 벡터를 패킹(인코딩) 합니다. 평문 벡터를 미리 패킹(인코딩)해야 암호화가 가능합니다.
     /////////////////////////////////////////////////////////////////////////////////////////////////////
 
     PublicKey pk; SecretKey sk;
@@ -252,7 +252,7 @@ double solve(ll params, const vector<double>& A, const vector<double>& B)
 
 int main()
 {
-	cout << "Please determine the size of two vector..." << " : ";
+	cout << "Please determine the dimension of two vector..." << " : ";
 
 	cin >> sz;
 
@@ -261,7 +261,7 @@ int main()
 
     double s_a = 0, s_b = 0;
 
-	cout << '\n' << "Please input the two vector..." << '\n';
+	cout << '\n' << "Please input the elements of two vector..." << '\n';
 	cout << "A : ";
 	
     for (auto& iv : A)
